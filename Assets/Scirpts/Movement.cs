@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D rb;
-    
+    public Rigidbody2D car;
+    public Rigidbody2D frontwheel;
+    public Rigidbody2D backwheel;
+    public float speed = 10f;
+    public float torque;
+    private float movement;
 
     private void Update()
     {
-        float move =(Input.GetAxisRaw("Horizontal"));
+        movement = Input.GetAxisRaw("Horizontal");
     }
 
     private void FixedUpdate()
     {
-       
+        frontwheel.AddTorque(-movement*speed*Time.fixedDeltaTime);
+        backwheel.AddTorque(-movement * speed * Time.fixedDeltaTime);
+        car.AddTorque(-movement * torque * Time.fixedDeltaTime);
     }
+
 }
