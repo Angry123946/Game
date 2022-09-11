@@ -123,11 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &48908359
-=======
---- !u!1 &143862582
->>>>>>> 221508efdc2eda4975f994165ecf75db356f7208
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +131,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 48908360}
   m_Layer: 5
   m_Name: leave
@@ -327,19 +322,11 @@ GameObject:
   - component: {fileID: 257979417}
   m_Layer: 0
   m_Name: back wheel
-=======
-  - component: {fileID: 143862585}
-  - component: {fileID: 143862584}
-  - component: {fileID: 143862583}
-  m_Layer: 0
-  m_Name: Camera
->>>>>>> 221508efdc2eda4975f994165ecf75db356f7208
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &257979416
 Transform:
   m_ObjectHideFlags: 0
@@ -556,9 +543,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!81 &519420029
-=======
---- !u!81 &143862583
->>>>>>> 221508efdc2eda4975f994165ecf75db356f7208
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -624,7 +608,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2090,5 +2073,3 @@ Transform:
   m_Father: {fileID: 942927455}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 221508efdc2eda4975f994165ecf75db356f7208
