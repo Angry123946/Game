@@ -14,6 +14,11 @@ public class Movement : MonoBehaviour
     private void Update()
     {
         movement = Input.GetAxisRaw("Horizontal");
+
+        if(speed>45)
+        {
+            speed--;
+        }
     }
 
     private void FixedUpdate()
@@ -21,6 +26,7 @@ public class Movement : MonoBehaviour
         frontwheel.AddTorque(-movement*speed*Time.fixedDeltaTime);
         backwheel.AddTorque(-movement * speed * Time.fixedDeltaTime);
         car.AddTorque(-movement * torque * Time.fixedDeltaTime);
+
     }
 
 }
