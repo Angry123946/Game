@@ -9,6 +9,11 @@ public class Menu : MonoBehaviour
 
     public void PlayGame()
     {
+        SceneManager.LoadScene("garage");
+    }
+
+    public void PickedCar()
+    {
         SceneManager.LoadScene("game");
     }
 
@@ -16,5 +21,10 @@ public class Menu : MonoBehaviour
     public void QuitGame ()
     {
         Application.Quit();
+    }
+
+    public void BackToMenu ()
+    {
+        SceneManager.LoadScene("menu");
     }
 }
