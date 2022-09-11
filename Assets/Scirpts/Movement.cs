@@ -7,8 +7,8 @@ public class Movement : MonoBehaviour
     public Rigidbody2D car;
     public Rigidbody2D frontwheel;
     public Rigidbody2D backwheel;
-    public float speed = 10f;
-    public float torque;
+    public float speed = 20;
+    public float torque=10;
     private float movement;
 
     private void Update()
